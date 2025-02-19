@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1 style="font-size: 70px;">Assignment js 3</h1></center>
+
+    <p>Q1: Declare an empty array using JS literal notation to store
+        student names in future.</p>
+
+    <p>q2: Declare an empty array using JS object notation to store
+        student names in future.</p>    
+
+    <p>Q3: Declare and initialize a strings array.</p>    
+        <button onclick="strArr()">Answer 3</button>
+
+    <p>Q4: Declare and initialize a numbers array.</p>
+    <button onclick="numArr()">Answer 4</button>
+
+    <p>Q5: Declare and initialize a boolean array.</p>
+    <button onclick="boolArr()">Answer 5</button>
+    <p>Q6: Declare and initialize a mixed array.</p>
+    <button onclick="mixArr()">Answer 6</button>
+    <p>Q7: Declare and Initialize an array and store available mobile
+        networks in Pakistan.</p>
+     <button onclick="simArr()">Answer 7</button>   
+     <p>Q8: Declare and Initialize an array and store available education
+        qualifications in Pakistan (e.g. SSC, HSC, BCS, BS, BCOM, MS,
+        M. Phil., PhD). Show the listed qualifications in your browser.</p>
+     <button onclick=" qualiArr()">Answer 8</button>
+
+     <p>Q9: Declare and initialize an empty array to store top movies of
+        2015. Add movies one by one in an array. Display the elements
+        & length of array in your browser. (Use array's length method)</p>
+        <button onclick="movArr()">Answer 9 </button>
+    <p>Q10: Declare and Initialize an array with your favorite cars. Show <br>
+        a. First index of the array <br>
+        b. Car at first index of the array <br>
+        c. Last index of the array <br>
+        d. Car at last index of the array </p>
+    <button onclick="carIndex()"> Answer10</button>
+
+    <script src="./app.js"></script>
+</body>
+</html>
+
+javascript
+
+var Q1 =[];
+var q2 ={};
+
+
+
+function strArr() {
+    let studentNames = ["John", "Alice", "Bob", "Eve"];
+    console.log(studentNames)
+}
+
+function numArr(){
+    let numbers = [10, 20, 30, 40, 50];
+    console.log(numbers)
+}
+function boolArr(){
+    let boolArray = [true, false, true, false];
+    console.log(boolArray)
+}
+
+function mixArr(){
+    let mixedArray = [42, "hello", true, 3.14, "world", false];
+    console.log(mixedArray)
+}
+function simArr() {
+    let mobileNetworks = ["Jazz", "Telenor", "Zong", "Ufone"];
+    console.log(mobileNetworks)
+}
+
+function qualiArr(){
+
+let qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+qualifications.forEach(function(qualification) {
+    console.log(qualification);
+});
+
+}
+
+
+
+function movArr(){
+    let movies = [];
+movies[0] = "Avengers: Age of Ultron";
+movies[1] = "Spectre";
+movies[2] = "Jurassic World";
+movies[3] = "Inside Out";
+console.log("Top Movies of 2015");
+console.log(movies);
+console.log("Length of the array: " + movies.length);
+}
+
+
+function carIndex() {
+let favoriteCars = ["Tesla Model S", "BMW M3", "Audi R8", "Mercedes-Benz S-Class", "Porsche 911"];
+
+let firstIndex = 0; 
+
+let carAtFirstIndex = favoriteCars[firstIndex];
+
+let lastIndex = favoriteCars.length - 1; 
+
+let carAtLastIndex = favoriteCars[lastIndex];
+
+console.log("First index of the array:", firstIndex);
+console.log("Car at first index:", carAtFirstIndex);
+console.log("Last index of the array:", lastIndex);
+console.log("Car at last index:", carAtLastIndex);
+
+}
