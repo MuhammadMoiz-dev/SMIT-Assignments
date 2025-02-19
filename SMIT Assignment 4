@@ -1,0 +1,69 @@
+var Q1 =[];
+var q2 ={};
+
+
+
+function strArr() {
+    let studentNames = ["John", "Alice", "Bob", "Eve"];
+    console.log(studentNames)
+}
+
+function numArr(){
+    let numbers = [10, 20, 30, 40, 50];
+    console.log(numbers)
+}
+function boolArr(){
+    let boolArray = [true, false, true, false];
+    console.log(boolArray)
+}
+
+function mixArr(){
+    let mixedArray = [42, "hello", true, 3.14, "world", false];
+    console.log(mixedArray)
+}
+function simArr() {
+    let mobileNetworks = ["Jazz", "Telenor", "Zong", "Ufone"];
+    console.log(mobileNetworks)
+}
+
+function qualiArr(){
+
+let qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+qualifications.forEach(function(qualification) {
+    console.log(qualification);
+});
+
+}
+
+
+
+function movArr(){
+    let movies = [];
+movies[0] = "Avengers: Age of Ultron";
+movies[1] = "Spectre";
+movies[2] = "Jurassic World";
+movies[3] = "Inside Out";
+console.log("Top Movies of 2015");
+console.log(movies);
+console.log("Length of the array: " + movies.length);
+}
+
+
+function carIndex() {
+let favoriteCars = ["Tesla Model S", "BMW M3", "Audi R8", "Mercedes-Benz S-Class", "Porsche 911"];
+
+let firstIndex = 0; 
+
+let carAtFirstIndex = favoriteCars[firstIndex];
+
+let lastIndex = favoriteCars.length - 1; 
+
+let carAtLastIndex = favoriteCars[lastIndex];
+
+console.log("First index of the array:", firstIndex);
+console.log("Car at first index:", carAtFirstIndex);
+console.log("Last index of the array:", lastIndex);
+console.log("Car at last index:", carAtLastIndex);
+
+}
