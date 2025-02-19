@@ -1,0 +1,111 @@
+// q1
+// var firstname=prompt('enter you fisrt name').toUpperCase()
+// var lastname=prompt('enter you last name').toUpperCase()
+// var fullname =firstname+lastname
+// document.write("your full name is "+ fullname)
+// q2
+// var mobile =prompt('enter a mobile name')
+// document.write(mobile.length)
+// q3
+// var cname = "pakistani"
+// document.write(cname.indexOf("n"))
+// q4
+// var hel ="hello world"
+// document.write(hel.lastIndexOf("l"))
+// q5
+// var countryName = 'pakistani'
+// document.write(countryName + "<br>")
+// document.write("character at index "+countryName.indexOf("i")+ "i")
+// q6
+// var firstName = prompt('enter the first name')
+// var lastName = prompt('enter the last name')
+// document.write(firstName.concat( " "+lastName))
+// q7
+// var replaceName = 'hyderabad';
+// document.write(replaceName.replace("hyder" , "islam"))
+// q8
+// var message = 'Ali and Sami are best friends. They play cricket and football together.';
+// document.write(message.replaceAll('and' , '&'))
+// q9
+// var str = '729'
+// document.write(typeof(str) + "<hr>")
+// var num = 729;
+// document.write(typeof(num))
+// q10
+// var userUrl = prompt("enter any url")
+// document.write("url" +userUrl + "<hr>")
+// document.write( "domain"+ userUrl.replace('www.' , ' '))
+// q11
+// var userInp = prompt('enter any word')
+// document.write(userInp.toUpperCase())
+// q12
+// var userInput = prompt('enter any word')
+// document.write(userInput.toLowerCase())
+// q13
+// let userInput = prompt("enter anu word");
+// let modifiedInput = userInput.charAt(0).toUpperCase() + userInput.slice(1);
+// document.write(modifiedInput);
+// q14
+// var num = +prompt('enter any number');
+// var numStr = num.toString().replace('.', '');
+// document.write(numStr)
+// q15
+// var a =+prompt("enter a value of A")
+// var b =+prompt("enter a value of B")
+// var x =a+b
+// document.write("your A value "+a +"<br>")
+// document.write("your B value "+b +"<br>")
+// document.write("total X value"+x)
+// q16
+// var a =+prompt("enter a value of A")
+// var b =+prompt("enter a value of B")
+// var y =a-b
+// document.write("your A value = "+a +"<br>")
+// document.write("your B value = "+b +"<br>")
+// document.write("total y value = "+y)
+// q18
+// var user=prompt("enter a fruit name")
+// var arr =["mango","banana","grap"]
+// var check= arr.indexOf(user)
+// if(check==-1){
+// alert("fruit not available "+ user)
+// }else alert("fruit are available "+user)
+// q19
+// function compareStrings(str1, str2) {
+// const result = str1.localeCompare(str2);
+// if (result < 0) {
+// console.log(`"${str1}" is less than "${str2}"`);
+// } else if (result > 0) {
+// console.log(`"${str1}" is greater than "${str2}"`);
+// } else {
+// console.log(`"${str1}" is equal to "${str2}"`);
+// }
+// }
+// const str1 = prompt("Enter the first string:");
+// const str2 = prompt("Enter the second string:");
+// compareStrings(str1, str2);
+// q20
+// var user="University of Karachi"
+// var arr =user.split("")
+// for(var i=0;i<arr.length;i++){
+// document.write(arr[i]+"<br>")
+// }
+// q21
+// var user=prompt("enter any name")
+// var number =user.length-1
+// document.write("user input: "+ user +"<br>")
+// document.write("last character : " + user[number])
+// q24
+// var str = 'pakistan';
+// var vowels = 0;
+// var consonants = 0;
+// for (var i = 0; i < str.length; i++) {
+// if (str[i] == 'a' || str[i] == 'e' || str.i == 'i' || str[i] == 'o' || str[i] =='u') {
+// vowels++;
+// } else {
+// consonants++;
+// }
+// }
+// document.write('Number of vowels: ' + vowels + '<br>');
+// document.write('Number of consonants: ' + consonants + '<br>');
+// document.write('Total number of characters: ' + str.length + '<br>');
