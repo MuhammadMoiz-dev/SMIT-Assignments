@@ -1,0 +1,180 @@
+
+// function datetime() {
+//     var dates = new Date()
+//     document.write(dates)
+// }
+
+
+
+// function username() {
+//     var firstname = prompt('enter your first name').toUpperCase()
+//     var lastname = prompt('enter your last name').toUpperCase()
+//     document.write(firstname + " " + lastname)
+// }
+
+
+// function add() {
+//     var num1 = +prompt("enter first number ")
+//     var num2 = +prompt("enter second number ")
+//     document.write(num1 + num2)
+// }
+
+// function calculator() {
+//     var num1 = +prompt("enter first number ")
+//     var num2 = +prompt("enter second number ")
+//     var op = prompt("enter a operator")
+
+//     document.write(eval(num1 + op + num2))
+// }
+
+// function square() {
+//     var user = +prompt('enter a get square number')
+//     document.write("user square vlaue is : " + user * user)
+// }
+
+
+// function factorial(n) {
+//     if (n === 0 || n === 1) {
+//         return 1;
+//     }
+
+
+//     return n * factorial(n - 1);
+// }
+
+
+// var number = 1;
+// document.write(`The factorial of ${number} is: ${factorial(number)}`);
+
+// // var num = +prompt("enter a seconds number")
+// function settime() {
+//     if (num == 0) {
+//         document.getElementById("h1").innerHTML = "time out"
+//     } else {
+//         document.getElementById("h1").innerHTML = num
+
+//         setTimeout(settime, 1000)
+//     }
+//     num = num - 1
+// }
+
+
+
+// function counting() {
+//     var startnum = +prompt("enetr a start number for counting")
+//     var endnum = +prompt("enetr a end number for counting")
+
+//         for (var i = startnum; i <= endnum; i++) {
+//             document.write(i+"<br>  ")
+//         }
+
+// }
+
+
+// function calculateHypotenuse(base, perpendicular) {
+//     function calculateSquare(x) {
+//         return x * x;  
+//     }
+
+//     var baseSquare = calculateSquare(base);
+//     var perpendicularSquare = calculateSquare(perpendicular);
+
+//     var hypotenuse = Math.sqrt(baseSquare + perpendicularSquare);
+    
+//     return hypotenuse;
+// }
+
+// var base = 3;
+// var perpendicular = 4;
+// document.write(`The hypotenuse of the triangle is: ${calculateHypotenuse(base, perpendicular)}`);
+
+
+
+// function ret(a,b){
+//     return a*b
+// }
+// document.write(ret(10,20))
+
+
+
+
+
+// function palindrome(){
+//     var getinp =document.getElementById("inp")
+
+//     var check = getinp.value.split(" ").reverse().join()
+//     if(getinp.value == check){
+
+//         document.write(`your word is `+getinp.value +` <br> palindrome is `+check)
+//     }else{
+//         document.write("worng word")
+//     }
+// }
+
+
+// var str =prompt("eneter")
+// function capitalizeWords(str) {
+//     const words = str.split(' ');
+
+//     const capitalizedWords = words.map(word => {
+//         return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+//     });
+
+//     return capitalizedWords.join(' ');
+// }
+
+// const exampleString = 'the quick brown fox';
+// const result = capitalizeWords(exampleString);
+// console.log(result); 
+
+
+
+
+// function findLongestWord(str) {
+//     const words = str.split(' ');
+
+//     const longestWord = words.reduce((longest, current) => {
+//         return current.length > longest.length ? current : longest;
+//     }, '');
+
+//     return longestWord;
+// }
+
+// const exampleString = 'Web Development Tutorial';
+// const result = findLongestWord(exampleString);
+// console.log(result); 
+
+
+
+// function countLetterOccurrences(str, letter) {
+//     let count = 0;
+
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] === letter) {
+//             count++;
+//         }
+//     }
+
+//     return count;
+// }
+
+// const sampleString = 'JSResourceS.com';
+// const letterToCount = 'o';
+// const result = countLetterOccurrences(sampleString, letterToCount);
+// console.log(result); 
+
+
+
+// function calcCircumference(radius) {
+//     const circumference = 2 * Math.PI * radius;
+//     console.log("The circumference is " + circumference);
+// }
+
+// function calcArea(radius) {
+//     const area = Math.PI * Math.pow(radius, 2);
+//     console.log("The area is " + area);
+// }
+
+// const radius = 5; 
+// calcCircumference(radius); 
+// calcArea(radius); 
